@@ -36,7 +36,7 @@ public class ModItems {
 
 
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((entries) -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((entries) -> {
             entries.add(GLADIUS);
             entries.add(PILUM);
             entries.add(HASTATI_HELMET);
