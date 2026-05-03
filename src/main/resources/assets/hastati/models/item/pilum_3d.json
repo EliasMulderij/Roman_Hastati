@@ -1,0 +1,80 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "hastati:item/pilum_3d"
+	},
+	"elements": [
+		{
+			"name": "Shaft",
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 21, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [14.5, 5.5, 15, 16], "texture": "#1"},
+				"east": {"uv": [14, 5.5, 14.5, 16], "texture": "#1"},
+				"south": {"uv": [15.5, 5.5, 16, 16], "texture": "#1"},
+				"west": {"uv": [15, 5.5, 15.5, 16], "texture": "#1"},
+				"up": {"uv": [15, 5.5, 14.5, 5], "texture": "#1"},
+				"down": {"uv": [15.5, 5, 15, 5.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Rod",
+			"from": [7.75, 23, 7.75],
+			"to": [8.25, 31, 8.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 24, 8.2]},
+			"faces": {
+				"north": {"uv": [13, 11.75, 13.5, 15.75], "texture": "#1"},
+				"east": {"uv": [13, 11.75, 13.5, 15.75], "texture": "#1"},
+				"south": {"uv": [13, 11.75, 13.5, 15.75], "texture": "#1"},
+				"west": {"uv": [13, 11.75, 13.5, 15.75], "texture": "#1"},
+				"up": {"uv": [14, 12, 13.5, 11.5], "texture": "#1"},
+				"down": {"uv": [14, 11.5, 13.5, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 21, 7],
+			"to": [9, 23, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 21, 7]},
+			"faces": {
+				"north": {"uv": [10, 15, 11, 16], "texture": "#1"},
+				"east": {"uv": [9, 15, 10, 16], "texture": "#1"},
+				"south": {"uv": [12, 15, 13, 16], "texture": "#1"},
+				"west": {"uv": [11, 15, 12, 16], "texture": "#1"},
+				"up": {"uv": [11, 15, 10, 14], "texture": "#1"},
+				"down": {"uv": [12, 14, 11, 15], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -5, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -5, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-24.5, 0, 0],
+			"translation": [3, -2.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-24.5, 0, 0],
+			"translation": [3, -2.5, 0]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [2.75, 2.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

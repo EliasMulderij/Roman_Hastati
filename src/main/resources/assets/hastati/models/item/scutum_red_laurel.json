@@ -1,0 +1,11 @@
+{
+  "parent": "hastati:item/scutum_red_laurel_standing",
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:blocking": 1
+      },
+      "model": "hastati:item/scutum_red_laurel_blocking"
+    }
+  ]
+}

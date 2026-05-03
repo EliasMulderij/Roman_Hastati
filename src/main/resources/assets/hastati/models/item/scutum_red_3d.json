@@ -1,0 +1,121 @@
+{
+  "format_version": "1.21.1",
+  "credit": "BennyBgood",
+  "textures": {
+    "0": "hastati:item/scutum_red",
+    "particle": "hastati:item/scutum_red"
+  },
+  "elements": [
+    {
+      "from": [5, 0, 7],
+      "to": [11, 20, 8],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+      "faces": {
+        "north": {"uv": [2.5, 0.5, 5.5, 10.5], "texture": "#0"},
+        "east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "south": {"uv": [10, 0.5, 13, 10.5], "texture": "#0"},
+        "west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "up": {"uv": [5.5, 0.5, 2.5, 0], "texture": "#0"},
+        "down": {"uv": [5.5, 10.5, 2.5, 11], "texture": "#0"}
+      }
+    },
+    {
+      "from": [1, 2, 7],
+      "to": [2, 18, 8],
+      "rotation": {"angle": 22.5, "axis": "y", "origin": [5, 0, 7]},
+      "faces": {
+        "north": {"uv": [7, 1.5, 7.5, 9.5], "texture": "#0"},
+        "east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "south": {"uv": [8, 1.5, 8.5, 9.5], "texture": "#0"},
+        "west": {"uv": [7.5, 1.5, 8, 9.5], "texture": "#0"},
+        "up": {"uv": [8, 1.5, 7.5, 1], "texture": "#0"},
+        "down": {"uv": [8, 9.5, 7.5, 10], "texture": "#0"}
+      }
+    },
+    {
+      "from": [2, 0, 7],
+      "to": [5, 20, 8],
+      "rotation": {"angle": 22.5, "axis": "y", "origin": [5, 0, 7]},
+      "faces": {
+        "north": {"uv": [5.5, 0.5, 7, 10.5], "texture": "#0"},
+        "east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "south": {"uv": [8.5, 0.5, 10, 10.5], "texture": "#0"},
+        "west": {"uv": [15, 0.5, 15.5, 10.5], "texture": "#0"},
+        "up": {"uv": [7, 0.5, 5.5, 0], "texture": "#0"},
+        "down": {"uv": [7, 10.5, 5.5, 11], "texture": "#0"}
+      }
+    },
+    {
+      "from": [14, 2, 7],
+      "to": [15, 18, 8],
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [11, 0, 7]},
+      "faces": {
+        "north": {"uv": [0.5, 1.5, 1, 9.5], "texture": "#0"},
+        "east": {"uv": [0, 1.5, 0.5, 9.5], "texture": "#0"},
+        "south": {"uv": [14.5, 1.5, 15, 9.5], "texture": "#0"},
+        "west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "up": {"uv": [0.5, 1.5, 0, 1], "texture": "#0"},
+        "down": {"uv": [0.5, 9.5, 0, 10], "texture": "#0"}
+      }
+    },
+    {
+      "from": [11, 0, 7],
+      "to": [14, 20, 8],
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [11, 0, 7]},
+      "faces": {
+        "north": {"uv": [1, 0.5, 2.5, 10.5], "texture": "#0"},
+        "east": {"uv": [15.5, 0.5, 16, 10.5], "texture": "#0"},
+        "south": {"uv": [13, 0.5, 14.5, 10.5], "texture": "#0"},
+        "west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "up": {"uv": [2.5, 0.5, 1, 0], "texture": "#0"},
+        "down": {"uv": [2.5, 10.5, 1, 11], "texture": "#0"}
+      }
+    },
+    {
+      "from": [6, 8, 6],
+      "to": [10, 12, 7],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 6.5]},
+      "faces": {
+        "north": {"uv": [10, 11.5, 12, 13.5], "texture": "#0"},
+        "east": {"uv": [9.5, 11.5, 10, 13.5], "texture": "#0"},
+        "west": {"uv": [12, 11.5, 12.5, 13.5], "texture": "#0"},
+        "up": {"uv": [12, 11.5, 10, 11], "texture": "#0"},
+        "down": {"uv": [12, 13.5, 10, 14], "texture": "#0"}
+      }
+    },
+    {
+      "from": [7.5, 3, 6.5],
+      "to": [8.5, 17, 7],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7.6, 10, 6.5]},
+      "faces": {
+        "north": {"uv": [0, 14.5, 7, 15], "rotation": 90, "texture": "#0"},
+        "east": {"uv": [0, 14, 7, 14.5], "rotation": 270, "texture": "#0"},
+        "south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+        "west": {"uv": [0, 15.5, 7, 15], "rotation": 90, "texture": "#0"},
+        "up": {"uv": [7.5, 14.5, 7, 14], "texture": "#0"},
+        "down": {"uv": [8, 14, 7.5, 14.5], "texture": "#0"}
+      }
+    },
+    {
+      "from": [7, 7, 8],
+      "to": [9, 13, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7.5, 7, 12]},
+      "faces": {
+        "east": {"uv": [4, 11, 7, 14], "texture": "#0"},
+        "south": {"uv": [3, 11, 4, 14], "texture": "#0"},
+        "west": {"uv": [0, 11, 3, 14], "texture": "#0"},
+        "up": {"uv": [9, 14, 8, 11], "texture": "#0"},
+        "down": {"uv": [8, 11, 7, 14], "texture": "#0"}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "scutum",
+      "origin": [7, 0, 7],
+      "scope": 0,
+      "color": 0,
+      "children": [0, 1, 2, 3, 4, 5, 6, 7]
+    }
+  ]
+}

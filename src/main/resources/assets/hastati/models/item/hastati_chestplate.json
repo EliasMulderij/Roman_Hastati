@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hastati:item/hastati_chestplate_2d"
+  }
+}

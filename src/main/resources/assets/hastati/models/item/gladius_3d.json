@@ -1,0 +1,128 @@
+{
+	"format_version": "1.21.1",
+	"credit": "BennyBgood",
+	"textures": {
+		"0": "hastati:item/gladius_3d",
+		"particle": "hastati:item/gladius_3d"
+	},
+	"elements": [
+		{
+			"name": "Guard",
+			"from": [7, 2, 7],
+			"to": [9, 4, 9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 3, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [8, 0, 10, 2], "texture": "#0"},
+				"east": {"uv": [8, 2, 10, 4], "texture": "#0"},
+				"south": {"uv": [8, 4, 10, 6], "texture": "#0"},
+				"west": {"uv": [8, 6, 10, 8], "texture": "#0"},
+				"up": {"uv": [10, 10, 8, 8], "texture": "#0"},
+				"down": {"uv": [12, 0, 10, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pommel",
+			"from": [7, -4, 7],
+			"to": [9, -2, 9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -3, 8]},
+			"faces": {
+				"north": {"uv": [0, 11, 2, 13], "texture": "#0"},
+				"east": {"uv": [2, 11, 4, 13], "texture": "#0"},
+				"south": {"uv": [4, 11, 6, 13], "texture": "#0"},
+				"west": {"uv": [6, 11, 8, 13], "texture": "#0"},
+				"up": {"uv": [13, 8, 11, 6], "texture": "#0"},
+				"down": {"uv": [13, 8, 11, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [7.5, -2, 7.5],
+			"to": [8.5, 2, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 6, 11, 10], "texture": "#0"},
+				"east": {"uv": [8, 10, 9, 14], "texture": "#0"},
+				"south": {"uv": [9, 10, 10, 14], "texture": "#0"},
+				"west": {"uv": [10, 10, 11, 14], "texture": "#0"},
+				"up": {"uv": [12, 13, 11, 12], "texture": "#0"},
+				"down": {"uv": [13, 12, 12, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [6.5, 4, 7.5],
+			"to": [9.5, 15, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 4, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 11], "texture": "#0"},
+				"east": {"uv": [6, 0, 7, 11], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 11], "texture": "#0"},
+				"west": {"uv": [7, 0, 8, 11], "texture": "#0"},
+				"up": {"uv": [14, 11, 11, 10], "texture": "#0"},
+				"down": {"uv": [14, 11, 11, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "point",
+			"from": [7.25, 14.25, 7.501],
+			"to": [8.75, 15.75, 8.499],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [10, 2, 12, 4], "texture": "#0"},
+				"east": {"uv": [12, 0, 13, 2], "texture": "#0"},
+				"south": {"uv": [10, 4, 12, 6], "texture": "#0"},
+				"west": {"uv": [12, 2, 13, 4], "texture": "#0"},
+				"up": {"uv": [14, 5, 12, 4], "texture": "#0"},
+				"down": {"uv": [14, 5, 12, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 6, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.5, 6, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [85, 79, -75],
+			"translation": [1.75, 4.25, 1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [85, 79, -75],
+			"translation": [1.75, 4.25, 1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"rotation": [50, 0, 90],
+			"translation": [0, -1.5, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, -38.75],
+			"translation": [0.5, 1.25, 0],
+			"scale": [0.6, 0.67422, 0.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Gladius 1",
+			"origin": [8, 0, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "Grip",
+					"origin": [8, -2, 7],
+					"scope": 0,
+					"color": 0,
+					"children": [0, 1, 2]
+				},
+				3,
+				4
+			]
+		}
+	]
+}

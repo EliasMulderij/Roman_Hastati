@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hastati",
+	"version": "2.3.0",
+	"name": "hastati",
+	"description": "This is an Hastati mod",
+	"authors": [
+		"Frosty and Bennybgood"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hastati/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"frosty.hastati.Hastati"
+		],
+		"fabric-datagen": [
+			"frosty.hastati.HastatiDataGenerator"
+		],
+		"client": [
+			"frosty.hastati.HastatiClient"
+		]
+	},
+	"mixins": [
+		"hastati.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"geckolib": ">=4.5"
+	},
+	"provides": [
+		"mm"
+	]
+}

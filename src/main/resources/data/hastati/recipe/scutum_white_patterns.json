@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "hastati:hastati_shield"
+    },
+    {
+      "item": "minecraft:cornflower"
+    }
+  ],
+  "result": {
+    "id": "hastati:scutum_white_patterns",
+    "count": 1
+  }
+}
