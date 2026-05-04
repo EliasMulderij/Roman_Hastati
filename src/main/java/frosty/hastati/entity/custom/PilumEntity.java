@@ -62,6 +62,9 @@ public class PilumEntity extends PersistentProjectileEntity {
             }
         } else {
             entity.damage(this.getDamageSources().thrown(this, this.getOwner()), 6);
+            if(entity instanceof LivingEntity mob) {
+                applySlowness(this.getWorld(), mob);
+            }
         }
 
         if (!this.getWorld().isClient()) {
@@ -70,9 +73,9 @@ public class PilumEntity extends PersistentProjectileEntity {
         }
     }
 
-    public void applySlowness(World world, PlayerEntity player) {
+    public void applySlowness(World world, LivingEntity entity) {
         if (!world.isClient) { // Always apply effects on the server side
-            player.addStatusEffect(new StatusEffectInstance(
+            entity.addStatusEffect(new StatusEffectInstance(
                     StatusEffects.SLOWNESS, // The Effect
                     40,                // Duration in Ticks (20 ticks = 1 second, so 200 = 10s)
                     2,                  // Amplifier (0 = Level I, 1 = Level II)
