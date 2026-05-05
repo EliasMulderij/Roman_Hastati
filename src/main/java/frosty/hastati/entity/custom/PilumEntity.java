@@ -57,11 +57,11 @@ public class PilumEntity extends PersistentProjectileEntity {
                 breakShield(player);
                 playSound(this.getWorld(), entity);
             } else {
-                entity.damage(this.getDamageSources().thrown(this, this.getOwner()), 13);
+                entity.damage(this.getDamageSources().thrown(this, this.getOwner()), 8);
                 applySlowness(this.getWorld(), player);
             }
         } else {
-            entity.damage(this.getDamageSources().thrown(this, this.getOwner()), 15);
+            entity.damage(this.getDamageSources().thrown(this, this.getOwner()), 11);
             if(entity instanceof LivingEntity mob) {
                 applySlowness(this.getWorld(), mob);
             }
